@@ -106,14 +106,19 @@ console.log(averageAndGrade(mtk, bahasaIndonesia, bahasaInggris, ipa));
 // NO.3
 const printSegitiga = 5;
 function segitiga(params) {
+  // validasi
   if (typeof params !== "number") {
     return "Data harus number";
   }
 
+  // buat variable penampung
   let hasil = "";
-  for (let i = 1; i <= params; i++) {
-    for (let j = 0; j <= params - i; j++) {
-      hasil += j + 1 + " ";
+
+  // iterasi 1
+  for (let i = 0; i <= params; i++) {
+    // iterasi 2
+    for (let j = 1; j <= params - i; j++) {
+      hasil += j + " ";
     }
     hasil += " \n";
   }
