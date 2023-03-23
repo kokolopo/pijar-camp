@@ -21,7 +21,7 @@ function palindrom(params) {
     console.log("palindrom");
   }
 }
-// palindrom("malam");
+palindrom("malam");
 
 // reverse words
 function reverseWords(sentence) {
@@ -38,7 +38,7 @@ function reverseWords(sentence) {
 }
 
 var sentence = "Saya belajar Javascript";
-// console.log(reverseWords(sentence));
+console.log(reverseWords(sentence));
 
 // NO 2
 const PijarFood = (harga, voucher, jarak, pajak) => {
@@ -65,7 +65,7 @@ const PijarFood = (harga, voucher, jarak, pajak) => {
   }`;
 };
 
-// console.log(PijarFood(75000, "PIJARFOOD5", 5, true));
+console.log(PijarFood(75000, "PIJARFOOD5", 5, true));
 
 // NO 3
 const divideAndSort = (number) => {
